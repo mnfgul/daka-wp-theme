@@ -1,0 +1,41 @@
+/*Tablets*/
+@media (max-width: 767px) {
+	body{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#mainBottom{
+		padding: 15px;
+	}
+}
+
+/*Smart Phones*/
+@media (max-width: 480px) {
+	topSec .navbar-search input.field{
+		margin: 0px 20px;
+	}
+	#topSec .navbar-search input.submit{
+		display: none !important;
+	}
+	.carousel-control{
+		top: 15%;
+	}
+	#footerSec{
+		background: #336;
+	}
+	.footerMenu ul.inline li{
+		display: block;
+		float: none;
+	}
+	.footerMenu ul li a{
+		display: block;
+		border: 0px;
+		border-bottom: 1px solid #3b3983;
+	}
+	#footerSec #footerLogos .span1{
+		display: none;
+	}
+	#footerSec #footerLogos .span2{
+		float: none;
+	}
+}

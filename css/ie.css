@@ -1,0 +1,26 @@
+.socialMenu li{
+	width: 40px;
+}
+#main{
+	border: 1px solid #e5e5e5;
+}
+#homeRightBottom .postThumb{
+	display: inline;
+	zoom: 1;
+	width: 110px;
+}
+.dropdown-menu{
+	z-index: 1000;
+}
+.topBannerThumb{
+	width: 160px;
+}
+.container:before, .row:before{
+	content: none;
+	border-collapse: collapse;
+}
+.container:after, .row:after{
+	padding: 0px;
+	height:0 !important; visibility:hidden;
+	border-collapse: collapse;
+}
